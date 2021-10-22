@@ -18,37 +18,46 @@
             <div class="item grow0">
                 <label for="name">Nome:</label>
                 <input type="text" id="name" name="name">
+                <p id="name-message" class="show-message"></p>
             </div>
         </div>
         <div class="container wrap">
             <div class="item grow1">
                 <label for="phone">Telefone:</label>
                 <input type="text" id="phone" name="phone">
+                <p id="phone-message" class="show-message"></p>
             </div>
             <div class="item grow4">
                 <label for="address">Endereço:</label>
                 <input type="text" id="address" name="address">
+                <p id="address-message" class="show-message"></p>
             </div>
         </div>
         <div class="container wrap">
             <div class="item grow1">
                 <label for="number">Número:</label>
                 <input type="number" id="number" name="number">
+                <p id="number-message" class="show-message"></p>
             </div>
             <div class="item grow3">
                 <label for="district">Bairro:</label>
                 <input type="text" id="district" name="district">
+                <p id="district-message" class="show-message"></p>
             </div>
             <div class="item grow1">
                 <label for="cep">CEP:</label>
                 <input type="text" id="cep" name="cep">
+                <p id="cep-message" class="show-message"></p>
             </div>
         </div>
     </form>
     <div class="btn-group">
-        <button id="register-btn" class="btn" type="submit" form="form" value="Submit">Registrar</button>
         <button id="cancel-btn" class="btn" type="submit" form="form" value="Submit">Cancelar</button>
+        <button id="register-btn" class="btn" type="submit" form="form" value="Submit">Registrar</button>
     </div>
+
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./js/app.js" type="module"></script>
 </body>
 
 </html>
