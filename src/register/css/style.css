@@ -1,0 +1,125 @@
+body {
+    background-color: #282a36;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    background-color: rgb(33, 37, 41);
+    height: 60px;
+    padding-left: 30px;
+}
+
+li {
+    display: inline;
+}
+
+span {
+    color: #6272a4;
+    font-size: xx-large;
+
+}
+
+a {
+    color: #f8f8f2;
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+li:nth-child(2) a {
+    color: #f1fa8c;
+    border-bottom: 2px solid #f1fa8c;
+}
+
+a:hover {
+    color: #f1fa8c;
+    border-bottom: 2px solid #f1fa8c;
+}
+
+form {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.item {
+    margin: 10px;
+    display: grid;
+}
+
+.grow0 {
+    flex-grow: 0;
+    width: 100%;
+}
+
+.grow1 {
+    flex-grow: 1;
+}
+
+.grow3 {
+    flex-grow: 3;
+}
+
+.grow4 {
+    flex-grow: 4;
+}
+
+label {
+    color: #f8f8f2;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+input {
+    color: #f8f8f2;
+    background-color: #282a36;
+    border: 1px solid #44475a;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 10px;
+    font-size: medium;
+}
+
+input:focus {
+    border: 1px solid #6272a4;
+}
+
+.show-message {
+    font-size: medium;
+    font-style: italic;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn {
+    background-color: rgb(33, 37, 41);
+    border: none;
+    border-radius: 5px;
+    color: #f8f8f2;
+    padding: 15px 10px;
+    margin: 5px;
+    font-size: medium;
+}
+
+.btn:active {
+    box-shadow: 0px 15px 20px rgba(33, 37, 41, 0.4);
+    transform: translateY(-5px);
+  }
+
+.btn:hover {
+    color: #f1fa8c;
+}
+

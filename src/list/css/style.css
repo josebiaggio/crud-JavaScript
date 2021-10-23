@@ -1,0 +1,44 @@
+ul {
+    display: flex;
+    align-items: center;
+    background-color: rgb(33, 37, 41);
+    height: 60px;
+    padding-left: 30px;
+}
+
+li {
+    display: inline;
+}
+
+span {
+    color: white;
+    font-size: xx-large;
+
+}
+
+a {
+    color: rgb(206, 212, 218);
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+li:nth-child(3) a {
+    border-bottom: 2px solid white;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+}
+
+table {
+    margin: 30px auto;
+    width: 95vw;
+}
+
+th {
+    background-color: rgb(33, 37, 41);
+    color: white;
+    height: 40px;
+}
